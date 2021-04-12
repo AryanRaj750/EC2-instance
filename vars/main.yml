@@ -1,6 +1,5 @@
 ---
-# vars file for ec2Instance_launch
-tags: [master,worker,worker]
+tags: [master, worker, worker]
 keypair: windowkey
 instance_type: t2.micro
 security_group: allTrafficAllowed
