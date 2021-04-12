@@ -6,4 +6,3 @@ instance_type: t2.micro
 security_group: allTrafficAllowed
 image: ami-0bcf5425cdc1d8a85
 region: ap-south-1
-

@@ -1,5 +1,4 @@
 ---
-# tasks file for ec2Instance_launch
 - name: Launching 3 instances
   ec2:
       key_name: "{{ keypair }}"
@@ -12,5 +11,4 @@
       assign_public_ip: yes
       instance_tags:
           node: "{{ item }}"
-  loop: "{{tags}}"
-           
+  loop: "{{ tags }}"
